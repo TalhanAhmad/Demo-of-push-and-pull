@@ -142,3 +142,111 @@ const values= sortArray.sort((a,b)=>{
 console.log(values);
 
 
+// find method()
+// find method is used to find a single value from an array
+
+
+const hisArray  = ["car","bike","sportsCars","heavy Bikes"];
+
+const herArray =  hisArray.find((user)=>{
+    return user.length ===11 ;
+})
+console.log(herArray);
+
+// real time example of find method()
+
+const user00 = [
+    {userName : "gul khan",userId : 1},
+    {userName : "gul ",userId : 2},
+    {userName : " khan",userId : 3},
+    {userName : "wali khan",userId : 4},
+]
+
+const usertypr = user00.find((bro)=>{
+    return bro.userId===2;
+})
+console.log(usertypr);
+
+
+
+
+// every method()
+// if any of the statement got false it will return false
+
+const karachiProductz = [
+    {product1 : "phone", price : 5890000},
+    {product2 : "charger", price : 5600},
+    {product3 : "tv", price : 60000},
+]
+
+ const bonus = karachiProductz.every((cartproduct)=>{
+    
+return cartproduct.price>50002;
+})
+if (bonus){
+    console.log("you are eligible for bonus");
+}
+console.log(bonus);
+
+
+// some method()
+// if any of the statement got true it will return true
+const karachiProductzz = [
+    {product1 : "phone", price : 5890000},
+    {product2 : "charger", price : 5600},
+    {product3 : "tv", price : 60000},
+]
+
+const price =karachiProductzz.some((agar)=>agar.price>5000);
+if (price===true){
+    console.log("congratulation you are great to get bonus");
+    
+}
+console.log(price);
+
+// fill method () 
+// value , start , end
+
+const mySchool = [0,0,0,0,0,0];
+mySchool.fill(-1);
+console.log(mySchool);
+// if u want to fill some value to the give array u can use fil method of the array 
+const theNumber = [1,2,3,4,5,6,7,8];
+theNumber.fill(23,3,8);
+console.log(theNumber);
+
+// splice method 
+// used when you want to delete r insert in the middle of array 
+// start , delete , insert
+
+
+// deleting items from  array 
+
+const arrayByME = ['ITEM1', 'ITEM2','ITEM3',]
+arrayByME.splice(0,1, );
+console.log(arrayByME);
+
+// inserting items from the array
+
+const byME = ['ITEM1', 'ITEM2','ITEM3',]
+
+byME.splice(2,'',"localstorage");
+console.log(byME);
+
+// iterable 
+// string , array , maps , sets are iterable
+// jis par ham for of loop laga sakien us ko iterable bolte 
+
+// String
+const vcName = "harshit";
+for ( let char of vcName){
+    console.log(vcName.length);
+}
+
+// array 
+
+const kyKing = ["item1","item2","item3"]
+ for (let user of kyKing){
+    console.log(kyKing);
+    console.log(kyKing.length);
+ }
