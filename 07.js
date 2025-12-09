@@ -236,7 +236,7 @@ console.log(byME);
 // iterable 
 // string , array , maps , sets are iterable
 // jis par ham for of loop laga sakien us ko iterable bolte 
-
+// 
 // String
 const vcName = "harshit";
 for ( let char of vcName){
@@ -250,3 +250,8 @@ const kyKing = ["item1","item2","item3"]
     console.log(kyKing);
     console.log(kyKing.length);
  }
+
+  
+
+
+
