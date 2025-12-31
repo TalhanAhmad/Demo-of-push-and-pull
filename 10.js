@@ -18,7 +18,6 @@ isSupercute(){
     return `${this.name} is not super cute`
 }
 }
-
  const animal1 = new animal("tommy",2);
  console.log(animal1);
 console.log( animal1.speak());
