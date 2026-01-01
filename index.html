@@ -3,9 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Black & Yellow Website</title>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="12.js"></script>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="logo">MyWebsite</div>
+
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Pages</a>
+        </div>
+
+        <a href="#signup" class="signup-btn" id="sign up">Sign Up</a>
+    </nav>
+
+    <!-- TODO LIST SECTION -->
+    <section id="main todo list">
+        <h2 >My To-Do List</h2>
+
+        <div class="todo-container">
+
+            <!-- Input Area -->
+            <div class="todo-input">
+                <input type="text" placeholder="Enter a new task">
+                <button>Add Task</button>
+            </div>
+
+            <!-- Task List -->
+            <ul class="todo-list">    
+            </ul>
+            <!-- delete button -->
+         <button class="delete-btn">Delete</button>
+        </div>
+    </section>
+
+    <!-- SIGN UP SECTION -->
+    <section id="signup">
+        <h2>Sign Up</h2>
+
+        <div class="signup-container">
+            <form>
+                <input type="email" placeholder="Enter your email">
+                <input type="password" placeholder="Enter your password">
+                <input type="password" placeholder="Confirm your password">
+                <textarea rows="4" placeholder="Tell us about yourself"></textarea>
+                <button type="submit">Create Account</button>
+            </form>
+        </div>
+    </section>
+<script src="13.js"></script>
 </body>
 </html>
