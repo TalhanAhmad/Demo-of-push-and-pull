@@ -15,6 +15,7 @@
 // console.log(number);
 
 // loop through nav items and style
+
 // you can not use forEach to iterate through HTML Collection
 const navitems = document.getElementsByTagName("a");
 console.log(navitems);
