@@ -5,7 +5,7 @@
 // second by getElementBYId and then giving a function to it and call it
 // The third on is the addEventListner which you can directly add events
 
-    const btn = document.querySelector("#button");
+ 
     // function clickMe(){
     //     console.log("you clicked me");   
     // }
@@ -15,9 +15,47 @@
     // });
 
 
-    const btn2 = document.querySelectorAll(".my-buttons");
-   btn2.forEach((button)=>{
+    // const btn = document.querySelectorAll(".my-buttons");
+   
+    // const btn = document.querySelectorAll(".my-buttons");
+    // btn.forEach((button)=>{
+    //     button.addEventListener("click", function(e){
+    //         console.log("you clicked me",button.textContent);
+    //     });
+    // })
+
+//     // praticc on click events 
+
+//     const allButtons = document.querySelectorAll(".my-buttons button");
+//     // console.log(allButtons.length);
+    
+
+//    allButtons.forEach(button=>{
+//     button.addEventListener("click", (e)=>{
+//         console.log(e.target);
+        
+
+//     })
+//    })
+
+   
+
+// const allButtons = document.querySelectorAll(".my-buttons button");
+
+// allButtons.forEach(button=>{
+//     button.addEventListener("click",(e)=>{
+//         console.log(e.target);
+        
+//     })
+// })
+
+
+const ALi = document.querySelectorAll(".my-buttons button");
+
+ALi.forEach(button=>{
     button.addEventListener("click", (e)=>{
-        console.log(e.currentTarget.textContent);
-    });
-   });
+        console.log(e.target);
+        e.target.style.backgroundColor = "green";
+        e.target.style.color = "red";
+    })
+})

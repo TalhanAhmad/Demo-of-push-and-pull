@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    border-radius: 1rem 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn{
+    margin-top: 2rem;
+    padding: 1rem 2rem ;
+    border-radius: 2rem;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+
+}
+.h1{
+     margin-top: 2rem;
+    padding: 1rem 2rem ;
+    border-radius: 4rem;
+    border-color: black;
+    background-color: aquamarine;
+    color: red;
+}
