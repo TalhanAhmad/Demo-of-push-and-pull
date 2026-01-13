@@ -1,226 +1,78 @@
-/* -------- RESET -------- */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 body {
-    background-color: #000;
-    color: #fff;
-    line-height: 1.6;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
-/* -------- NAVBAR -------- */
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 40px;
-    background: #000;
-    border-bottom: 2px solid #ffcc00;
-    animation: slideDown 1s ease;
-}
-
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #ffcc00;
-}
-
-.nav-links {
-    display: flex;
-    gap: 25px;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 16px;
-    transition: color 0.3s;
-}
-
-.nav-links a:hover {
-    color: #ffcc00;
-}
-
-.signup-btn {
-    padding: 8px 18px;
-    background: #ffcc00;
-    color: #000;
-    border-radius: 20px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.signup-btn:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 10px #ffcc00;
-}
-
-/* -------- RESPONSIVE NAV -------- */
-@media (max-width: 768px) {
-    nav {
-        flex-direction: column;
-        gap: 15px;
-    }
-}
-
-/* -------- SECTION -------- */
-section {
-    padding: 60px 40px;
-    animation: fadeIn 1.2s ease;
-}
-
-h2 {
-    text-align: center;
-    color: #ffcc00;
-    margin-bottom: 20px;
-}
-/* -------- TODO LIST -------- */
 .todo-container {
-    max-width: 500px;
-    margin: auto;
-    background: #111;
-    padding: 25px;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(255, 204, 0, 0.3);
+  background: #fff;
+  padding: 20px;
+  width: 350px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Input Area */
-.todo-input {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 20px;
+.todo-container h2 {
+  text-align: center;
+  margin-bottom: 15px;
 }
 
-.todo-input input {
-    flex: 1;
-    padding: 10px;
-    background: #000;
-    border: 1px solid #ffcc00;
-    color: #fff;
-    border-radius: 5px;
+.todo-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
 }
 
-.todo-input input::placeholder {
-    color: #aaa;
+.todo-form input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
-.todo-input button {
-    padding: 10px 18px;
-    background: #ffcc00;
-    border: none;
-    color: #000;
-    font-weight: bold;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: transform 0.3s, box-shadow 0.3s;
+.todo-form button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-.todo-input button:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 10px #ffcc00;
+.add-btn {
+  background: #28a745;
+  color: #fff;
 }
 
-/* Task List */
+.add-btn:hover {
+  background: #218838;
+}
+
 .todo-list {
-    list-style: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-.todo-list li {
-    background: #000;
-    padding: 12px;
-    margin-bottom: 10px;
-    border-left: 5px solid #ffcc00;
-    transition: transform 0.3s;
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #eee;
 }
 
-.todo-list li:hover {
-    transform: translateX(6px);
-}
-/* delete button */
 .delete-btn {
-       padding: 10px 18px;
-    background: #ffcc00;
-    border: none;
-    color: #000;
-    font-weight: bold;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: transform 0.3s, box-shadow 0.3s;
+  background: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 4px;
+  cursor: pointer;
 }
-   
 
 .delete-btn:hover {
-    background: #ffcc00;
-    color: #000;
-    box-shadow: 0 0 8px #ffcc00;
-}
-
-/* -------- SIGN UP FORM -------- */
-.signup-container {
-    max-width: 500px;
-    margin: auto;
-    background: #111;
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 0 20px rgba(255, 204, 0, 0.4);
-}
-
-.signup-container input,
-.signup-container textarea {
-    width: 100%;
-    padding: 12px;
-    margin-bottom: 15px;
-    background: #000;
-    border: 1px solid #ffcc00;
-    color: #fff;
-    border-radius: 5px;
-}
-
-.signup-container input::placeholder,
-.signup-container textarea::placeholder {
-    color: #aaa;
-}
-
-.signup-container button {
-    width: 100%;
-    padding: 12px;
-    background: #ffcc00;
-    border: none;
-    color: #000;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 25px;
-    cursor: pointer;
-    transition: background 0.3s, transform 0.3s;
-}
-
-.signup-container button:hover {
-    background: #e6b800;
-    transform: scale(1.03);
-}
-
-/* -------- ANIMATIONS -------- */
-@keyframes slideDown {
-    from {
-        transform: translateY(-100%);
-    }
-    to {
-        transform: translateY(0);
-    }
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  background: #c82333;
 }
