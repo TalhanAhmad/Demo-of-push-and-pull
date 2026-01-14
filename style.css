@@ -76,3 +76,17 @@ body {
 .delete-btn:hover {
   background: #c82333;
 }
+
+.stop{
+  padding: 1rem 2rem ;
+  box-shadow: 0px 2px 20px rgb(rgba(255, 0, 0, 0.137));
+  outline: none;
+  position: absolute;
+  text-decoration: none;
+  left: 39%;
+  margin: 2rem;
+  border-radius: 2rem;
+  transition: all 0.4s;
+  cursor: pointer;
+
+}

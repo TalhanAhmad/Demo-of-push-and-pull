@@ -33,15 +33,9 @@ for (let i = 0 ; i < 100 ; i++){
 console.log("script end");
 
 // cleartime out clear the settimeout which you have provided to the browser
-// clearTimeout(id);
+clearTimeout(id);
 
 
-// setIntervals 
-// console.log("script start");
-// setInterval(()=>{
-//     console.log(Math.random());
-    
-// },100);
-// console.log("script end");
+
 
 
