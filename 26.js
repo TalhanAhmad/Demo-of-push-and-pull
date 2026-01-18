@@ -8,7 +8,13 @@ function myPromise((resolve, reject) => {
                 reject(new Error("Request failed"));
             }
         };
-        xhr.open("GET", "https://api.example.com/data");
+        xhr.open("GET", "https://jsonplaceholder.typicode.com/posts");
         xhr.send();
     });
 })
+
+myPromise.then((data) => {
+    console.log(data);
+}).catch((error) => {
+    console.error(error);
+}0);
