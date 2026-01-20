@@ -18,3 +18,15 @@ myPromise.then((data) => {
 }).catch((error) => {
     console.error(error);
 }0);
+
+
+
+function myPromise(resolve, reject) {
+    return new Promise((resolve, reject) => {
+        xhr.onreadystatechange = function() {                   
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                resolve(xhr.responseText);
+            }
+            else if (xhr.readyState === 4) {
+                reject(new Error("Request failed"));
+            }       
