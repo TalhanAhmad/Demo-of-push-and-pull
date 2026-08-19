@@ -1,5 +1,5 @@
 = "abdul"
-
+= "abdul"
 = "abdul"
 = "abdul"
 console.log("hello world");
