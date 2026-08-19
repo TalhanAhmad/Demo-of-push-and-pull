@@ -1,3 +1,5 @@
+= "abdul"
+
 console.log("hello world");
 //variable are those in which we store data and can use when needed and also we can change it
 
