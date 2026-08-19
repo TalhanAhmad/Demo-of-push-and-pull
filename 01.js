@@ -10,6 +10,7 @@ firstName = "khan";
 console.log(firstName);
 = "abdul"
 = "abdul"
+= "abdul"
 //while declearing the values the javascript is case sensitive
 //so be careful while declearing he value
 //example
