@@ -8,7 +8,7 @@ console.log(firstName);
 // while changing the save value you dont need to use the let again
 firstName = "khan";
 console.log(firstName);
-
+= "abdul"
 
 //while declearing the values the javascript is case sensitive
 //so be careful while declearing he value
