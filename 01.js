@@ -1,3 +1,6 @@
+
+firstName = "g khan"
+
 abdul"
 abdul"
 abdul"
