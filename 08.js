@@ -41,7 +41,7 @@ function myfunc1() {
     console.log(this);
 }
 myfunc1();
-
+about();
 
 // call apply and bind
 
