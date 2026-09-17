@@ -42,7 +42,7 @@ function myfunc1() {
 }
 myfunc1();
 about();
-
+about();
 // call apply and bind
 
 
