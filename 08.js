@@ -9,7 +9,7 @@ const body1 = {
     about : personInfo
 }
 about();
-
+about();
 
 
 
