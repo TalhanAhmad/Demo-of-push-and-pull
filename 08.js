@@ -8,6 +8,14 @@ const body1 = {
     age: "42",
     about : personInfo
 }
+about();
+
+
+
+
+
+
+
 const body2 = {
     firstName : "mohiteee",
     age: "32",
