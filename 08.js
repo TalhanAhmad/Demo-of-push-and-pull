@@ -18,7 +18,7 @@ const body3 = {
     age: "21",
     about : personInfo
 }
-
+about();
 body1.about();
 body2.about();
 body3.about();
