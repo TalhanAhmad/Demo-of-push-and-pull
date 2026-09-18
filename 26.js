@@ -20,6 +20,11 @@ myPromise.then((data) => {
 }0);
 
 
+xhr.send();
+
+
+
+
 
 function myPromise(resolve, reject) {
     return new Promise((resolve, reject) => {
