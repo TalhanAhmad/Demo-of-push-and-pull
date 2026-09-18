@@ -21,7 +21,7 @@ myPromise.then((data) => {
 
 
 xhr.send();
-
+xhr.send();
 
 
 
