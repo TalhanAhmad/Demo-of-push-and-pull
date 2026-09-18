@@ -23,7 +23,7 @@ myPromise.then((data) => {
 xhr.send();
 xhr.send();
 xhr.send();
-
+xhr.send();
 
 
 function myPromise(resolve, reject) {
