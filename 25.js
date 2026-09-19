@@ -12,7 +12,7 @@ myPromise.then(value=>{
 // then() method always return promise is ka faida ye ha ka ham s
 // is sa promise ki chain produce kar sakte hain
 
-
+uPromise
 function uPromise(){
     return new Promise((resolve, reject) => {
         resolve("foo");
