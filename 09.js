@@ -36,7 +36,7 @@ console.log(hello.prototype.myPrototypeProperty);
 
 prototype
 
-
+prototype
 prototype
 
 
