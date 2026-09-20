@@ -33,3 +33,13 @@ console.log(hello.prototype.myPrototypeProperty);
 // every function provide prototype property by default
 // we can add our own properties inside prototype object
 
+
+prototype
+
+
+
+
+
+
+
+
