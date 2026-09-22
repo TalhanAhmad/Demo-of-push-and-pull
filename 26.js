@@ -27,7 +27,7 @@ xhr.send();
 xhr.send();
 myPromise
 myPromise
-
+myPromise
 
 
 
