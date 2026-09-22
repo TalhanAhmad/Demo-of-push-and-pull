@@ -25,6 +25,15 @@ xhr.send();
 xhr.send();
 xhr.send();
 xhr.send();
+myPromise
+
+
+
+
+
+
+
+
 
 function myPromise(resolve, reject) {
     return new Promise((resolve, reject) => {
