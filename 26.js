@@ -18,7 +18,7 @@ myPromise.then((data) => {
 }).catch((error) => {
     console.error(error);
 }0);
-
+userId": 1
 
 xhr.send();
 xhr.send();
