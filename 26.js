@@ -12,7 +12,7 @@ function myPromise((resolve, reject) => {
         xhr.send();
     });
 })
-
+userId": 1
 myPromise.then((data) => {
     console.log(data);
 }).catch((error) => {
