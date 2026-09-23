@@ -32,7 +32,7 @@ myPromise
 myPromise
 userId": 1
 userId": 1
-
+userId": 1
 
 
 function myPromise(resolve, reject) {
