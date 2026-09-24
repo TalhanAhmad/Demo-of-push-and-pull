@@ -26,3 +26,9 @@ console.log( animal1.isSupercute());
 isSupercute()
  isSupercute()
 isSupercute()
+isSupercute()
+
+
+
+
+
