@@ -23,5 +23,5 @@ isSupercute(){
 console.log( animal1.speak());
 console.log( animal1.isAge());
 console.log( animal1.isSupercute());
-
+isSupercute()
  
