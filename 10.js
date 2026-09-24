@@ -25,3 +25,4 @@ console.log( animal1.isAge());
 console.log( animal1.isSupercute());
 isSupercute()
  isSupercute()
+isSupercute()
