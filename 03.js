@@ -1,6 +1,6 @@
 // intro to arrays 
 
-
+hello
 
 //  they are referance type
 //  order collection of items are called arrays mean  (index)
